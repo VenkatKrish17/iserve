@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.iserve.app"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyAMhEmmBB-HOAguDVPpr2VujTnCXKZJzrk",
+      "PLAY_SERVICES_VERSION": "11.8.0",
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.0",
+      "PACKAGE_NAME": "com.iserve.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.iserve.app"
+    }
+  },
+  "dependent_plugins": {}
+}

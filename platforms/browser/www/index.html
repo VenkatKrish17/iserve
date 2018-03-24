@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <script>
+        function initMap(){
+        console.log("map initialized")
+
+        }
+        </script>
+        <script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMhEmmBB-HOAguDVPpr2VujTnCXKZJzrk&callback=initMap">
+   </script>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/slidebars.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+        <title>Hello World</title>
+    </head>
+    <body>
+      <div off-canvas="id-1 left push">
+        <ul class="list-group">
+          <li class="list-group-item" id="indexpagemenu"><a href="index.html">Home</a></li>
+            <li class="list-group-item" id="letmeservemenu"><a href="#">Find the food</a></li>
+          <li class="list-group-item" id="aboutpagemenu"><a href="#">About Us</a></li>
+          </ul>
+      </div>
+
+
+        <div class="content" canvas="container">
+          <div class="page-header"><div id="sidemenubtn" style="float:left"><img src="img/menu.png" width="25px" height="25px"></div><h1>iServe</h1></div>
+
+          <div id="formpage">
+            <form>
+            <div class="form-group">
+
+                <input type="text" class="col-sm-12" placeholder="Description" id="description" required>
+            </div>
+            <div class="form-group">
+
+                <input type="text" class="col-sm-12" placeholder="how much(in Kg)?" id="howmuch" required>
+            </div>
+
+
+            <label for="howlong">Is it edible?</label>
+
+              <div class="btn-group colors" data-toggle="buttons" id="howlong">
+                <label class="btn btn-primary active">
+                  <input type="radio" name="edible" value="edible" autocomplete="off" > Edible
+                </label>
+
+                <label class="btn btn-primary">
+                <input type="radio" name="edible" value="nonedible" autocomplete="off" checked> Non Edible
+            </label>
+
+            </div>
+            <br>
+            <label for="whattype">What type of food?</label>
+
+            <div class="btn-group-vertical colors"  data-toggle="buttons" id="whattype" class="row">
+              <label class="btn btn-primary active" class="col-md-12">
+                <input type="radio" name="type" value="home" autocomplete="off" > Home
+              </label>
+              <label class="btn btn-primary" class="col-md-12">
+              <input type="radio" name="type" value="restaurant" autocomplete="off"> Restaurant
+              </label>
+              <label class="btn btn-primary" class="col-md-12">
+              <input type="radio" name="type" value="supermarket" autocomplete="off"> Super Market
+              </label>
+              <label class="btn btn-primary" class="col-md-12">
+              <input type="radio" name="type" value="others" autocomplete="off" checked> others
+</label>
+</div>
+          <div class="form-group">
+              <input type="text"  class="col-sm-12" placeholder="Special Instructions to get there" id="gettingthere">
+            </div>
+            <input type="button"  value="Pick Location >" class="btn btn-primary" style="width:100% !important" id="getlocationbutton">
+          </form>
+          </div>
+          <div id="mapsparent">
+          <div id="mapsdiv" style="width:100%;height:300px;border:1px solid black">
+          </div>
+          <br>
+          <br>
+          <button id="saveinfo" class="btn btn-block btn-primary">Save Info</button>
+        </div>
+        <div id="letmeservepage">
+          <div class="form-group">
+          <input type="range" min=5 max=50 value=10 id="distancerange"><span id="rangeval">10</span>
+        </div>
+        <button class="btn btn-block btn-primary" style="wdith:100% !important" id="fetchdata">Show the places</button>
+          <div id="outputmaps" style="width:100%;height:200px;">
+
+          </div>
+        </div>
+        <div id="aboutus">
+          <ul class="list-group">
+            <li class="list-group-item">Venkat </li>
+              <li class="list-group-item" >Monisha </li>
+            <li class="list-group-item" >Savitha </li>
+            <li class="list-group-item">+65 82582445</li>
+            </ul>
+
+
+        </div>
+
+
+
+
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/slidebars.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
