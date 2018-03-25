@@ -10,7 +10,7 @@ h1 {
     padding:0px;
     text-align:center;
 }
-input[type='text']{
+input[type='text'],input[type='number']{
   height:50px !important;
 }
 input[type='range']{

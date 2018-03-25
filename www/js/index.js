@@ -53,7 +53,7 @@ initFirebase();
 })
 $("#saveinfo").click(function(event){
   event.preventDefault();
-  foodpoint={'desc':$("#description").val(),'quantity':$("#howmuch").val(),'location':cords,edibility:$("input[name='edible']:checked").val(),type:$("input[name='type']:checked").val(),'howto':$("#gettingthere").val(),'updatedon':String(Date()).slice(0,24)}
+  foodpoint={'desc':$("#description").val(),'quantity':$("#howmuch").val(),'expiry':$("#expiry").val(),'location':cords,edibility:$("input[name='edible']:checked").val(),type:$("input[name='type']:checked").val(),'howto':$("#gettingthere").val(),'updatedon':String(Date()).slice(0,24)}
   console.log(foodpoint);
   latvalkey=String(cords.lat.toFixed(3)).replace(".","_")
   longvalkey=String(cords.lng.toFixed(3)).replace(".","_")
@@ -110,12 +110,12 @@ var bounds = new google.maps.LatLngBounds();
      //console.log(center)
      bounds.extend(marker.getPosition())
      map.fitBounds(bounds)
-     google.maps.event.addListener(marker, 'click', (function(marker,count) {
+     google.maps.event.addListener(marker, 'click', (function(marker,childData) {
            return function() {
-               infoWindow.setContent("<h6>"+childData.desc+"</h6>"+childData.edibility+" - "+childData.quantity+"kg <br>"+childData.updatedon+"<br><a href='https://maps.google.com?q='"+childData.location.lat+","+childData.location.lng+">Take me there</a>");
+               infoWindow.setContent("<h6>"+childData.desc+"</h6>"+childData.edibility+" - "+childData.quantity+"kg<br> Expiry in  "+childData.expiry+" days <br>"+childData.updatedon+"<br><a href='https://maps.google.com?q='"+childData.location.lat+","+childData.location.lng+">Take me there</a>");
                infoWindow.open(map, marker);
            }
-       })(marker,count));
+       })(marker,childData));
 
 
  });
