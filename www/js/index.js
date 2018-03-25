@@ -53,7 +53,7 @@ initFirebase();
        controller.toggle("id-1");
      })
      $("#getlocationbutton").click(function(event){
-       alert("clicked")
+       //alert("clicked")
        event.preventDefault();
        navigator.geolocation.getCurrentPosition(function(location){
          //alert(location.coords.latitude+" "+location.coords.longitude)
@@ -61,7 +61,7 @@ initFirebase();
          long_val=location.coords.longitude
          $("#formpage").hide();
          $("#mapsparent").show();
-         alert(lat_val+" "+long_val)
+         //alert(lat_val+" "+long_val)
          cords={'lat':lat_val,'lng':long_val}
          var map = new google.maps.Map(document.getElementById('mapsdiv'), {
          zoom: 16,
