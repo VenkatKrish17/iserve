@@ -86,13 +86,19 @@ $("#saveinfo").click(function(event){
   datetime=String(Date()).slice(0,24);
 
   if(file){
-    var storageRef=firebase.storage().ref("'/images/'"+file.name);
-    var task=storageRef.put(file);
+    var storageRef=firebase.storage().ref("/images/"+latvalkey+longvalkey+datetime);
+    var task=storageRef.put(file).then(function(snapshot){
+      foodpoint.imgsrc=snapshot.downloadURL;
+      //alert(snapshot.downloadURL);
+      firebase.database().ref('foodpoints').child('fp'+latvalkey+longvalkey+datetime).set(foodpoint).then(function(snapshot){
+        alert("You are amazing ! ")
+        window.location.reload()
+      })
+
+    });
   }
-  foodpoint.imgsrc=file.name
-  firebase.database().ref('foodpoints').child('fp'+latvalkey+longvalkey+datetime).set(foodpoint)
-  alert("You are amazing ! ")
-  //window.location.reload()
+
+
   //save all data
 })
 
@@ -144,7 +150,7 @@ var bounds = new google.maps.LatLngBounds();
      map.fitBounds(bounds)
      google.maps.event.addListener(marker, 'click', (function(marker,childData) {
            return function() {
-               infoWindow.setContent("<h6>"+childData.desc+"</h6>"+childData.edibility+" - "+childData.quantity+"kg<br> Expiry in  "+childData.expiry+" days <br>"+childData.updatedon+"<br><a href='https://maps.google.com?q='"+childData.location.lat+","+childData.location.lng+">Take me there</a>");
+               infoWindow.setContent("<h6>"+childData.desc+"</h6> <img style='display:inline-block;float:right;' src='"+childData.imgsrc+" width='50px' height='50px'>"+childData.edibility+" - "+childData.quantity+"kg<br> Expiry in  "+childData.expiry+" days <br>"+childData.updatedon+"<br><a href='https://maps.google.com?q='"+childData.location.lat+","+childData.location.lng+">Take me there</a>");
                infoWindow.open(map, marker);
            }
        })(marker,childData));
@@ -180,7 +186,7 @@ $("#uploadedimage").click(function(){
   navigator.camera.getPicture(function(result){
 console.log(result);
 var image = document.getElementById('uploadedimage');
-getFileObject(filePathOrUrl, function (fileObject) {
+getFileObject(result, function (fileObject) {
     file=fileObject;
 });;
 image.src =result;

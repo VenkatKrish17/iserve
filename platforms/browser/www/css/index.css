@@ -16,3 +16,7 @@ input[type='text'],input[type='number']{
 input[type='range']{
   width:90%;
 }
+
+.page-header{
+  background:#3498DB !important;
+}

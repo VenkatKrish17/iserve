@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 25 11:43:18 SGT 2018
+#Sun Mar 25 12:13:20 SGT 2018
 122.file=E\:\\Hackathon\\fossasia\\iServe\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-land-hdpi-v4\\screen.png
 60.set=ANDROID_RESOURCE
 129.file=E\:\\Hackathon\\fossasia\\iServe\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png
