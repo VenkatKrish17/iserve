@@ -30,7 +30,7 @@
         -->
         <script>
         function initMap(){
-        alert("map initialized")
+        console.log("map initialized")
 
         }
         </script>
@@ -50,14 +50,14 @@
       <div off-canvas="id-1 left push">
         <ul class="list-group">
           <li class="list-group-item" id="indexpagemenu"><a href="index.html">Home</a></li>
-            <li class="list-group-item" id="letmeservemenu"><a href="#">Let Me Serve</a></li>
+            <li class="list-group-item" id="letmeservemenu"><a href="#">Find the food</a></li>
           <li class="list-group-item" id="aboutpagemenu"><a href="#">About Us</a></li>
           </ul>
       </div>
 
 
         <div class="content" canvas="container">
-          <div class="page-header"><span id="sidemenubtn" class="glyphicon glyphicon-menu-hamburger">Menu</span><h1>iServe</h1></div>
+          <div class="page-header"><div id="sidemenubtn" style="float:left"><img src="img/menu.png" width="25px" height="25px"></div><h1>iServe</h1></div>
 
           <div id="formpage">
             <form>
@@ -65,10 +65,18 @@
 
                 <input type="text" class="col-sm-12" placeholder="Description" id="description" required>
             </div>
+            <div class="form-group">
 
-            <label for="howlong">Is it edible?</label><br>
+                <input type="number" min=0 class="col-sm-12" placeholder="how much(in Kg)?" id="howmuch" required>
+            </div>
+            <div class="form-group">
 
-              <div class="btn-group-vertical colors" data-toggle="buttons" id="howlong">
+                <input type="number" min=0 class="col-sm-12" placeholder="Expiry (in days)" id="expiry" required>
+            </div>
+
+            <label for="howlong">Is it edible?</label>
+
+              <div class="btn-group colors" data-toggle="buttons" id="howlong">
                 <label class="btn btn-primary active">
                   <input type="radio" name="edible" value="edible" autocomplete="off" > Edible
                 </label>
@@ -79,39 +87,57 @@
 
             </div>
             <br>
-            <label for="whattype">What type of food?</label><br>
-            <div class="btn-group-vertical colors" data-toggle="buttons" id="whattype">
-              <label class="btn btn-primary active">
+            <label for="whattype">What type of food?</label>
+
+            <div class="btn-group-vertical colors"  data-toggle="buttons" id="whattype" class="row">
+              <label class="btn btn-primary active" class="col-md-12">
                 <input type="radio" name="type" value="home" autocomplete="off" > Home
               </label>
-              <label class="btn btn-primary">
+              <label class="btn btn-primary" class="col-md-12">
               <input type="radio" name="type" value="restaurant" autocomplete="off"> Restaurant
               </label>
-              <label class="btn btn-primary">
+              <label class="btn btn-primary" class="col-md-12">
               <input type="radio" name="type" value="supermarket" autocomplete="off"> Super Market
               </label>
-              <label class="btn btn-primary">
+              <label class="btn btn-primary" class="col-md-12">
               <input type="radio" name="type" value="others" autocomplete="off" checked> others
 </label>
 </div>
           <div class="form-group">
-              <input type="text"  class="col-sm-12" placeholder=" Instructions for getting there" id="gettingthere">
+              <input type="text"  class="col-sm-12" placeholder="Special Instructions to get there" id="gettingthere">
             </div>
-            <input type="button" class="col-xs-12" value="Pick Location !"  style="width:100% !important" id="getlocationbutton">
+            <input type="button"  value="Pick Location >" class="btn btn-primary" style="width:100% !important" id="getlocationbutton">
           </form>
           </div>
           <div id="mapsparent">
           <div id="mapsdiv" style="width:100%;height:300px;border:1px solid black">
           </div>
+          <div id="imagediv" style="width:200px;height:100px;margin:0 auto;border:1px solid black">
+            <img id="uploadedimage" src="" width="200px" height="100px" alt="upload image"/>
+          </div>
           <br>
           <br>
-          <button id="saveinfo" class="btn btn-block">Save Info</button>
+          <button id="saveinfo" class="btn btn-block btn-primary">Save Info</button>
         </div>
         <div id="letmeservepage">
+          <div class="form-group">
+            <label for="distancerange">Coverage distance (in km)</label>
           <input type="range" min=5 max=50 value=10 id="distancerange"><span id="rangeval">10</span>
+        </div>
+        <button class="btn btn-block btn-primary" style="wdith:100% !important" id="fetchdata">Show the places</button>
           <div id="outputmaps" style="width:100%;height:200px;">
 
           </div>
+        </div>
+        <div id="aboutus">
+          <ul class="list-group">
+            <li class="list-group-item">Venkat </li>
+              <li class="list-group-item" >Monisha </li>
+            <li class="list-group-item" >Savitha </li>
+            <li class="list-group-item">+65 82582445</li>
+            </ul>
+
+
         </div>
 
 

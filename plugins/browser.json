@@ -15,6 +15,9 @@
     },
     "cordova-plugin-googlemaps": {
       "PACKAGE_NAME": "com.iserve.app"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.iserve.app"
     }
   },
   "dependent_plugins": {}

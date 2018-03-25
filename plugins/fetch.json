@@ -24,5 +24,13 @@
     "variables": {
       "API_KEY_FOR_ANDROID": "AIzaSyAMhEmmBB-HOAguDVPpr2VujTnCXKZJzrk"
     }
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@0.3.5"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

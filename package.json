@@ -12,6 +12,7 @@
     "dependencies": {
         "cordova-android": "^7.0.0",
         "cordova-browser": "^5.0.3",
+        "cordova-plugin-camera": "^4.0.2",
         "cordova-plugin-geolocation": "^4.0.1",
         "cordova-plugin-googlemaps": "^2.2.8",
         "cordova-plugin-whitelist": "^1.3.3"
@@ -22,7 +23,8 @@
             "cordova-plugin-geolocation": {},
             "cordova-plugin-googlemaps": {
                 "API_KEY_FOR_ANDROID": "AIzaSyAMhEmmBB-HOAguDVPpr2VujTnCXKZJzrk"
-            }
+            },
+            "cordova-plugin-camera": {}
         },
         "platforms": [
             "browser",

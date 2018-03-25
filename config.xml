@@ -41,6 +41,7 @@
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyAMhEmmBB-HOAguDVPpr2VujTnCXKZJzrk" />
     </plugin>
     <preference name="phonegap-version" value="cli-7.1.0" />
+    <plugin name="cordova-plugin-camera" spec="^4.0.2" />
     <engine name="browser" spec="^5.0.3" />
     <engine name="android" spec="^7.0.0" />
 </widget>

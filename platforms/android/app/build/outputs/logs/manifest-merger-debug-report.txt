@@ -1,9 +1,20 @@
 -- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:14:9-16:20
+	android:grantUriPermissions
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:14:92-126
+	android:authorities
+		INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:14:19-66
+	android:exported
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:14:67-91
+	android:name
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:14:127-181
 manifest
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [:tbxml-android:] C:\Users\user\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\ee8aea0c213b186671740acfe27addd1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\6812de87d5931f123eb0ca6b60d87e63\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\212de69f638e6d9e0c37846428b81ab4\AndroidManifest.xml:2:1-9:12
@@ -16,15 +27,15 @@ MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\user\.gradl
 MERGED from [:CordovaLib] E:\Hackathon\fossasia\iServe\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\8770a471042a66fd98e593fa129a5456\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6c5f1330bb82776b0296eec5113552d9\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\a34297a08e55582db47930f02e3fa8fd\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\44228f9e9d54aba76cb544737cfe5063\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\d468d783c584511eba4cde2ab828b504\AndroidManifest.xml:17:1-27:12
-INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:2:1-6:12
+INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:102-126
 		INJECTED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml
@@ -62,7 +73,7 @@ MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gr
 	android:name
 		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:5:5-14:19
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:5:5-17:19
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\6812de87d5931f123eb0ca6b60d87e63\AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\6812de87d5931f123eb0ca6b60d87e63\AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\212de69f638e6d9e0c37846428b81ab4\AndroidManifest.xml:7:5-20
@@ -83,18 +94,18 @@ MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\8770a471042a66fd98e593fa129a5456\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6c5f1330bb82776b0296eec5113552d9\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6c5f1330bb82776b0296eec5113552d9\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\a34297a08e55582db47930f02e3fa8fd\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\a34297a08e55582db47930f02e3fa8fd\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\44228f9e9d54aba76cb544737cfe5063\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\44228f9e9d54aba76cb544737cfe5063\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\d468d783c584511eba4cde2ab828b504\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\d468d783c584511eba4cde2ab828b504\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:5:5-20
 	android:supportsRtl
 		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
 	android:label
@@ -144,7 +155,7 @@ MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\user
 	android:name
 		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:13:20-65
 uses-sdk
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:15:5-74
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:18:5-74
 MERGED from [:tbxml-android:] C:\Users\user\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\ee8aea0c213b186671740acfe27addd1\AndroidManifest.xml:7:5-43
 MERGED from [:tbxml-android:] C:\Users\user\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\ee8aea0c213b186671740acfe27addd1\AndroidManifest.xml:7:5-43
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\6812de87d5931f123eb0ca6b60d87e63\AndroidManifest.xml:20:5-44
@@ -169,60 +180,68 @@ MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\8770a471042a66fd98e593fa129a5456\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6c5f1330bb82776b0296eec5113552d9\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\6c5f1330bb82776b0296eec5113552d9\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:4:5-43
 MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\a34297a08e55582db47930f02e3fa8fd\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\a34297a08e55582db47930f02e3fa8fd\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\44228f9e9d54aba76cb544737cfe5063\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\44228f9e9d54aba76cb544737cfe5063\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\d468d783c584511eba4cde2ab828b504\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\d468d783c584511eba4cde2ab828b504\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ab896ea9ae5545ccefd7149a16a878aa\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e237f16b9117a7ced64a6226157dff9e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\29ad3e9135b284aba50f6b5fad1556cd\AndroidManifest.xml:4:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\7e050815cec69383263c99bc410976b1\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:15:42-71
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:18:42-71
 	android:minSdkVersion
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:15:15-41
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:18:15-41
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:16:5-81
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:19:5-81
 	android:name
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:16:22-78
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:19:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:17:5-79
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:17:22-76
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:20:22-76
 uses-feature#android.hardware.location.gps
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:18:5-66
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:21:5-66
 	android:name
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:18:19-63
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:21:19-63
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:19:5-79
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\6812de87d5931f123eb0ca6b60d87e63\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\6812de87d5931f123eb0ca6b60d87e63\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:19:22-76
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:22:22-76
 uses-feature#0x00020000
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:20:5-78
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:23:5-78
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\6812de87d5931f123eb0ca6b60d87e63\AndroidManifest.xml:26:5-28:35
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\6812de87d5931f123eb0ca6b60d87e63\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:20:19-51
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:23:19-51
 	android:required
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:20:52-75
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:23:52-75
 uses-feature#android.hardware.location
-ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:21:5-62
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:24:5-62
 	android:name
-		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:21:19-59
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:24:19-59
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12 reason: za.co.twyst has a targetSdkVersion < 4
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:25:22-78
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:15:13-116
+	android:resource
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:15:75-113
+	android:name
+		ADDED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:15:24-74
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12 reason: za.co.twyst has a targetSdkVersion < 4
+IMPLIED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12 reason: za.co.twyst has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12 reason: za.co.twyst requested WRITE_EXTERNAL_STORAGE
+IMPLIED from E:\Hackathon\fossasia\iServe\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12 reason: za.co.twyst requested WRITE_EXTERNAL_STORAGE
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\045f483b08d37dc998570853257603a1\AndroidManifest.xml:23:9-26:75
 	android:exported
