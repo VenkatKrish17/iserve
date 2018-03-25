@@ -1,0 +1,56 @@
+Country,City,Postal code,District location,name,Size (kg),Ediblity,type,Latitude,Longitude,Fresh_index
+Thailand,Ayutthaya,13160,Bang Pa-in,a,1962,0,1,14.2275,100.575556,1
+Thailand,Ayutthaya,13160,Bang Pa-in,b,2379,1,2,14.2275,100.575556,2
+Thailand,Ayutthaya,13160,Bang Pa-in,c,1075,1,3,14.2275,100.575556,3
+Thailand,Ayutthaya,13260,Phrakru Nakhon Luang,d,2050,1,4,14.464167,100.605556,4
+Thailand,Bangkok,10520,Lat Krabang,e,2559,1,1,13.723333, 100.784167,5
+Thailand,Bangkok,10510,Min Buri,f,677,0,2,13.813889, 100.748056,6
+Thailand,Bangkok,10260,Prawet,a,148,0,3,13.716944, 100.694444,1
+Thailand,Bangkok,10260,Prawet,b,330,0,4,13.716944, 100.694444,2
+Thailand,Bangkok,10400,Samsen Nai Phayathai,c,2042,0,1,13.78, 100.542778,3
+Thailand,Bangkok,10120,"Yannawa, Sathorn",d,500,0,2,13.696944, 100.543056,4
+Thailand,Chachoengsa,24190,Plaeng Yao,e,5153,1,3,13.584722, 101.284167,5
+Thailand,Chachoengsao ,24180,Bang Pakong,f,3508,1,4,13.542778, 100.993889,6
+Thailand,Chonburi,20230,Ban Bueng,a,1505,1,1,13.311389, 101.112222,1
+Thailand,Chonburi,20000,Mueang Chonburi,b,16577,1,2,13.361944, 100.979167,2
+Thailand,Chonburi,20000,Mueang Chonburi,c,8226,1,3,13.361944, 100.979167,3
+Thailand,Chonburi,20230,"Nong I-run, Ban Bueng",d,1739,1,4,13.27827,101.258388,4
+Thailand,Chonburi,20230,"Nong Kham, Si Racha,",e,1291,0,1,13.145806,101.01563,5
+Thailand,Chonburi,20230,"Nong Kham, Si Racha,",f,820,0,2,13.145806,101.01563,6
+Thailand,Chonburi,20230,Si Racha,a,653,0,3,13.174444, 100.930556,1
+Thailand,Chonburi,20230,Si Racha,b,1472,0,4,13.174444, 100.930556,2
+Thailand,Chonburi,20230,Si Racha,c,8634,0,1,13.174444, 100.930556,3
+Thailand,Chonburi,20230,Si Racha,d,3482,1,2,13.174444, 100.930556,4
+Thailand,Chonburi,20230,Si Racha,e,3669,1,3,13.174444, 100.930556,5
+Thailand,Chonburi,20190,Nong Yai,f,700,1,4,13.156667, 101.366667,6
+Thailand,Chonburi,20230,"Thung Sukhla, Si Racha",a,3556,1,1,13.112687,100.916502,1
+Thailand,Lamphun,51000,Mueang Lamphun,b,370,0,2,18.578056,99.017778,2
+Thailand,Lamphun,51000,Phi Chit,c,1788,0,3,18.578056,99.017778,3
+Thailand,Nong Khai,43000,"Phon Sawang, Mueang Nong Khai",d,2960,0,4,18.056907,103.1621449,4
+Thailand,Pattani,94110,"Bang Kao, Sai Buri",e,933,0,1,6.7632587,101.5842499,5
+Thailand,Phetchaburi,76130,Tha Yang,f,2000,0,2,12.8200873,99.7492078,6
+Thailand,Phichit,66220,Wachirabarami,a,1235,0,3,16.595073,100.1239295,1
+Thailand,Ratchaburi,70120,Photharam,b,1430,0,4,13.2890392,99.6226899,2
+Thailand,Rayong,21103,Banchang,c,3220,0,1,12.7013013,101.0846525,3
+Thailand,Rayong,21151,Map Ta Phut,d,3220,1,2,12.7158461,101.1038892,4
+Thailand,Rayong,21151,Map Ta Phut,e,540,1,3,12.6991519,101.1101862,5
+Thailand,Rayong,21150,Map Ta Phut,f,6949,1,4,12.6992346,101.1101862,6
+Thailand,Rayong,21150,Map Ta Phut,a,1692,1,1,12.7549199,101.1465302,1
+Thailand,Rayong,21000,Mueang Rayong,b,3733,1,2,12.7551194,101.0940146,2
+Thailand,Rayong,21180,Nikhom Phatthana,c,1281.35,1,3,12.7554359,101.0940142,3
+Thailand,Rayong,21120,"Nong Bua, Ban Khai",d,2200,1,4,12.8721608,101.3358351,4
+Thailand,Rayong,21140,Pluak Daeng,e,8984,1,1,12.8469302,101.0042097,5
+Thailand,Rayong,21140,Pluak Daeng,f,8003,0,2,13.0120194,101.1207394,6
+Thailand,Rayong,21140,Pluak Daeng,a,3669,0,3,13.0120194,101.1207394,1
+Thailand,Rayong,21140,Pluak Daeng,b,2202,0,4,13.0120194,101.1207394,2
+Thailand,Rayong,21140,Pluak Daeng,c,2202,0,1,13.0120194,101.1207394,3
+Thailand,Rayong,21120,,d,2211,0,2,13.0232402,101.1707516,4
+Thailand,Samut Prakan,10540,Bang Sao Thong,e,1004,0,3,13.5750388,100.7927076,5
+Thailand,Samut Prakan,10500,"Chorakhe Noi, Bang Bo",f,3700,0,4,13.7038911,100.58373,6
+Thailand,Samut Prakan,10280,Praeksa Muang,a,5472,0,1,13.5520611,100.6494734,1
+Thailand,Samut Sakhon,74000,Mueang Khok Kham,b,840,0,2,13.5374382,100.3422223,2
+Thailand,Samut Sakhon,74000,Mueang Samut Sakhon,c,139,0,3,13.5469962,100.2130393,3
+Thailand,Samut Sakhon,74000,Mueang Samut Sakhon,d,1455,0,4,13.5457912,100.2319643,4
+Thailand,Saraburi,18100,Kaeng Khoi,e,579.29,1,1,14.5006064,100.7479408,5
+Thailand,Songkhla,90110,Hat Yai,f,2247,1,2,7.0296823,100.3967886,6
+Thailand,Udon Thani,41340,Nong Saeng,f,2213,1,3,17.3053635,102.850676,1
